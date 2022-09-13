@@ -4,7 +4,6 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden;
 }
 .container{
     width: 90%;
@@ -166,7 +165,11 @@ header nav ul li a{
     .page-2 ::before{
         background-image: url(../images/bg-curve-mobile.svg);
         top: -70px;
-        width: 140%;
+    }
+}
+@media(max-width:480px){
+    .page-2 ::before{
+        top: -50px;
     }
 }
 .page-2 .container{
